@@ -9,9 +9,7 @@ const nextConfig = {
       },
     ],
   },
-  // ✅ Optional performance and build improvements
-  reactStrictMode: true,
-  swcMinify: true,
+
 };
 
 export default nextConfig;

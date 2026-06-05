@@ -2,16 +2,45 @@
 
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { FaStar, FaGoogle, FaFacebook, FaInstagram, FaYelp } from "react-icons/fa";
-import { FiPhone, FiMail, FiMapPin, FiArrowUpRight } from "react-icons/fi";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaYelp,
+  FaGoogle,
+  FaStar,
+} from "react-icons/fa";
+import { FiArrowUpRight } from "react-icons/fi";
 
 const Footer = () => {
+  const serviceLinks = [
+    { name: "Collision Repair", path: "/services/collision-repair" },
+    { name: "Custom Paint & Refinishing", path: "/services/custom-paint-refinishing" },
+    { name: "Paintless Dent Repair", path: "/services/paintless-dent-repair" },
+    { name: "Auto Restoration", path: "/services/auto-restoration" },
+    { name: "Headlight Restoration", path: "/services/headlight-restoration" },
+    { name: "Lease Return Reconditioning", path: "/services/lease-return-reconditioning" },
+  ];
+
   const quickLinks = [
-    { name: "Home", path: "/" },
-    { name: "Services", path: "/services" },
     { name: "Gallery", path: "/gallery" },
-    { name: "About Us", path: "/about" },
+    { name: "Before & After", path: "/before-and-after" },
+    { name: "About", path: "/about" },
+    { name: "Locations", path: "/locations" },
+  ];
+
+  const areaLinks = [
+    { name: "Garland", path: "/locations/garland" },
+    { name: "Dallas", path: "/locations/dallas" },
+    { name: "Richardson", path: "/locations/richardson" },
+    { name: "Plano", path: "/locations/plano" },
+    { name: "Mesquite", path: "/locations/mesquite" },
+    { name: "Rowlett", path: "/locations/rowlett" },
+    { name: "Sachse", path: "/locations/sachse" },
+    { name: "Murphy", path: "/locations/murphy" },
+    { name: "Wylie", path: "/locations/wylie" },
+    { name: "Sunnyvale", path: "/locations/sunnyvale" },
+    { name: "Rockwall", path: "/locations/rockwall" },
+    { name: "Balch Springs", path: "/locations/balch-springs" },
   ];
 
   const socialLinks = [
@@ -41,108 +70,174 @@ const Footer = () => {
 
   return (
     <footer className="bg-neutral-950 text-white">
-      <div className="max-w-[85rem] py-16 sm:py-24 px-4 sm:px-6 lg:px-8 mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-          {/* Column 1: Brand & CTA */}
-          <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <Link href="/" className="inline-block mb-6" aria-label="Go to home">
-              <div className="flex items-center gap-3">
-                {/* Optional logo: put /logo.png in /public if you want an image logo */}
-                {/* Remove this block if you don't use a logo image */}
-
-
+      {/* Top CTA strip */}
+      <div className="border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 py-16 sm:py-20">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+            <div>
+              <Link href="/" className="inline-block mb-3" aria-label="Go to home">
                 <div className="flex flex-col">
-                  <span className="text-2xl font-semibold whitespace-nowrap">
-                    Texas Five Star Paint & Body
+                  <span className="text-2xl font-semibold tracking-tight">
+                    Texas Five Star Paint &amp; Body
                   </span>
-                  <div className="flex items-center gap-2 text-red-600 mt-1">
+                  <div className="flex items-center gap-1 mt-1">
                     {[...Array(5)].map((_, i) => (
-                      <FaStar key={i} size={16} />
+                      <FaStar key={i} size={12} className="text-red-600" />
                     ))}
                   </div>
                 </div>
-              </div>
-            </Link>
-
-            <p className="text-gray-400 mb-6">
-              Your trusted, I-CAR Gold Class certified auto body shop in Garland, TX. We bring
-              precision, passion, and perfection to every repair.
-            </p>
-
-            <a
-              href={googleMapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold py-3 px-6 rounded-md text-base transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-900/50"
-            >
-              Get Directions
-              <FiArrowUpRight />
-            </a>
-          </div>
-
-          {/* Column 2: Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold uppercase text-gray-300 mb-4">Quick Links</h3>
-            <ul className="space-y-3">
-              {quickLinks.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.path}
-                    className="text-gray-400 hover:text-red-600 transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Column 3: Contact & Hours */}
-          <div>
-            <h3 className="text-lg font-semibold uppercase text-gray-300 mb-4">Contact Us</h3>
-            <ul className="space-y-4 text-gray-400">
-              <li className="flex items-start gap-3">
-                <FiMapPin className="text-red-600 mt-1 flex-shrink-0" size={18} />
-                <a
-                  href={googleMapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-red-600"
-                >
-                  214 Range Dr, <br />
-                  Garland, TX 75040
-                </a>
-              </li>
-              <li className="flex items-center gap-3">
-                <FiPhone className="text-red-600 flex-shrink-0" size={18} />
-                <a href="tel:2142999240" className="hover:text-red-600">
-                  (214) 299-9240
-                </a>
-              </li>
-              <li className="flex items-center gap-3">
-                <FiMail className="text-red-600 flex-shrink-0" size={18} />
-                <a
-                  href="mailto:texasfivestarpaintandbody@yahoo.com"
-                  className="hover:text-red-600 break-all"
-                >
-                  texasfivestarpaintandbody@yahoo.com
-                </a>
-              </li>
-            </ul>
-
-            <h4 className="text-md font-semibold text-gray-300 mt-6 mb-2">Business Hours</h4>
-            <p className="text-sm text-gray-400">Mon - Fri: 8am - 6pm</p>
-            <p className="text-sm text-gray-400">Saturday: 9am - 3pm</p>
-            <p className="text-sm text-gray-400">Sunday: Closed</p>
+              </Link>
+              <p className="text-neutral-500 text-base">
+                Call us for a free estimate or swing by the shop.
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              <a
+                href="tel:4695837377"
+                className="inline-flex items-center gap-2 bg-white text-neutral-950 font-semibold py-3 px-6 rounded-full text-sm transition-all duration-300 hover:bg-neutral-200"
+              >
+                (469) 583-7377
+              </a>
+              <a
+                href={googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-white/[0.12] text-white font-semibold py-3 px-6 rounded-full text-sm transition-all duration-300 hover:bg-white/[0.06]"
+              >
+                Get Directions
+                <FiArrowUpRight size={14} />
+              </a>
+            </div>
           </div>
         </div>
+      </div>
 
-        {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-6">
-          <p className="text-sm text-gray-500 text-center sm:text-left">
-            © {new Date().getFullYear()} Texas Five Star Paint & Body. All Rights Reserved.
+      {/* Main footer links */}
+      <div className="border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 py-14">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-8 gap-y-10">
+            {/* Services */}
+            <div className="col-span-1">
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-neutral-500 mb-5">
+                Services
+              </h3>
+              <ul className="space-y-3">
+                {serviceLinks.map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      href={link.path}
+                      className="text-sm text-neutral-400 hover:text-white transition-colors"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Pages */}
+            <div className="col-span-1">
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-neutral-500 mb-5">
+                Company
+              </h3>
+              <ul className="space-y-3">
+                {quickLinks.map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      href={link.path}
+                      className="text-sm text-neutral-400 hover:text-white transition-colors"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Areas (first half) */}
+            <div className="col-span-1">
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-neutral-500 mb-5">
+                Service Areas
+              </h3>
+              <ul className="space-y-3">
+                {areaLinks.slice(0, 6).map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      href={link.path}
+                      className="text-sm text-neutral-400 hover:text-white transition-colors"
+                    >
+                      {link.name}, TX
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Areas (second half) */}
+            <div className="col-span-1">
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-neutral-500 mb-5 lg:invisible">
+                More Areas
+              </h3>
+              <ul className="space-y-3">
+                {areaLinks.slice(6).map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      href={link.path}
+                      className="text-sm text-neutral-400 hover:text-white transition-colors"
+                    >
+                      {link.name}, TX
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Contact */}
+            <div className="col-span-2 sm:col-span-1">
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-neutral-500 mb-5">
+                Contact
+              </h3>
+              <ul className="space-y-3 text-sm text-neutral-400">
+                <li>
+                  <a
+                    href={googleMapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
+                    214 Range Dr
+                    <br />
+                    Garland, TX 75040
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:4695837377"
+                    className="hover:text-white transition-colors"
+                  >
+                    (469) 583-7377
+                  </a>
+                </li>
+
+              </ul>
+
+              <div className="mt-5 text-sm text-neutral-500">
+                <p>Mon – Fri: 8am – 6pm</p>
+                <p>Sat: 9am – 3pm</p>
+                <p>Sun: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom bar */}
+      <div className="border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-xs text-neutral-600">
+            © {new Date().getFullYear()} Texas Five Star Paint & Body
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-5">
             {socialLinks.map((social) => (
               <a
                 key={social.label}
@@ -150,10 +245,10 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={social.label}
-                className="text-gray-500 hover:text-red-600 transition-colors"
                 title={social.label}
+                className="text-neutral-600 hover:text-white transition-colors duration-200"
               >
-                <social.icon size={22} />
+                <social.icon size={16} />
               </a>
             ))}
           </div>

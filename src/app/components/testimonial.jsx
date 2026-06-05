@@ -181,7 +181,7 @@ export default function Testimonials() {
               viewport={{ once: true }}
               transition={{ duration: 0.45, ease: "easeOut", delay: 0.05 }}
             >
-              We&apos;re proud of our 5-star rating. But don&apos;t just take our word for it—see what our
+              We&apos;re proud of our 5-star rating. But don&apos;t just take our word for it - see what our
               satisfied customers have to say about their experience.
             </motion.p>
 
@@ -202,6 +202,33 @@ export default function Testimonials() {
           <InfiniteVerticalMarquee items={testimonialsData} speed={30} />
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'AutoRepair',
+            name: 'Texas Five Star Paint & Body',
+            aggregateRating: {
+              '@type': 'AggregateRating',
+              ratingValue: '5',
+              reviewCount: String(testimonialsData.length),
+              bestRating: '5',
+              worstRating: '1',
+            },
+            review: testimonialsData.map((t) => ({
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: String(t.rating),
+                bestRating: '5',
+              },
+              author: { '@type': 'Person', name: t.name },
+              reviewBody: t.quote,
+            })),
+          }),
+        }}
+      />
     </section>
   );
 }

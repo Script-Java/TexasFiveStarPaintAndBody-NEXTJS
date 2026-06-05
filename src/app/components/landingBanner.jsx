@@ -19,8 +19,8 @@ const slides = [
   {
     src: img1,
     alt: "Flawless blue paint restoration on a classic Shelby Cobra at our Garland body shop.",
-    headline: "Expert Auto Restoration",
-    subheadline: "Award-winning craftsmanship bringing classic cars back to life.",
+    headline: "Classic Car Restoration",
+    subheadline: "Frame-off builds, factory-correct paint, and the craftsmanship to bring your classic back to showroom condition.",
     details: [
       "Frame-Off & Rotisserie Restorations",
       "Original Factory Spec Painting",
@@ -31,49 +31,49 @@ const slides = [
     src: img2,
     alt: "Mercedes-Benz front-end after precision collision repair by Texas Five Star Paint & Body.",
     headline: "Precision Collision Repair",
-    subheadline: "I-CAR Gold Class certified work for your luxury vehicle in Garland, TX.",
+    subheadline: "Frame straightening, panel replacement, and factory-match paint - your car leaves looking like the accident never happened.",
     details: ["Advanced Structural Repair", "Factory-Match Paint & Finishing", "All Insurance Claims Handled"],
   },
   {
     src: img3,
     alt: "Dodge Challenger with a vibrant custom orange paint job.",
     headline: "Custom Paint & Finishes",
-    subheadline: "From full-body color changes to custom graphics, your vision is our command.",
-    details: ["Candy, Pearl, & Metallic Finishes", "Custom Airbrushing & Graphics", "Matte & Satin Vinyl Wraps"],
+    subheadline: "Candy, pearl, metallic, and matte finishes hand-applied by artisan painters with 15+ years of experience.",
+    details: ["Candy, Pearl, & Metallic Finishes", "Custom Airbrushing & Graphics", "Full-Body Color Changes"],
   },
   {
     src: img4,
     alt: "Bentley undergoing detailed body work at our secure facility in Garland, Texas.",
     headline: "Luxury & Exotic Car Specialists",
-    subheadline: "Meticulous care and specialized services for high-end vehicles.",
+    subheadline: "Certified technicians trained in aluminum and carbon fiber repair for Porsche, BMW, Mercedes, Bentley, and more.",
     details: ["Aluminum & Carbon Fiber Repair", "Certified High-End Vehicle Technicians", "Discreet & Secure Facility"],
   },
   {
     src: img5,
     alt: "A red Ford Mustang with a high-gloss finish after paint correction service.",
-    headline: "Showroom Paint Correction",
-    subheadline: "Eliminating swirls and scratches for a better-than-new shine.",
+    headline: "Paint Correction & Protection",
+    subheadline: "Multi-stage polishing removes swirl marks and oxidation, then we seal it with ceramic coating for lasting protection.",
     details: ["Multi-Stage Compound & Polishing", "Hologram & Swirl Mark Removal", "Ceramic Coating Application"],
   },
   {
     src: img6,
     alt: "A white Porsche receiving paintless dent repair in our Garland shop.",
     headline: "Paintless Dent Repair (PDR)",
-    subheadline: "A fast, affordable solution for dings, dents, and hail damage.",
+    subheadline: "Same-day hail damage repair that preserves your factory finish - no repainting, no filler, no color mismatch.",
     details: ["Same-Day Service Available", "Maintains Original Factory Paint", "Cost-Effective Dent Removal"],
   },
   {
     src: img7,
     alt: "A black BMW sedan after complete auto body panel alignment.",
-    headline: "Full-Service Auto Body Work",
-    subheadline: "From minor scratches to major frame damage, we handle it all.",
+    headline: "Complete Collision & Body Work",
+    subheadline: "Bumper repair, frame alignment, scratch removal - every repair backed by our five-star quality guarantee.",
     details: ["Bumper Repair & Replacement", "Frame Straightening & Alignment", "Scratch & Chip Repair"],
   },
   {
     src: img8,
     alt: "A luxury Maserati getting a final polish on its custom paint job.",
-    headline: "High-End Finishes & Detailing",
-    subheadline: "Protecting your investment with ceramic coatings and premium detailing.",
+    headline: "Ceramic Coating & Paint Protection",
+    subheadline: "Professional-grade graphene and ceramic coatings that shield your finish from UV, chemicals, and everyday wear for years.",
     details: ["Graphene & Ceramic Pro Coatings", "Concourse-Level Detailing", "Interior & Exterior Protection"],
   },
 ];
@@ -131,9 +131,15 @@ export default function LandingBanner() {
                       active ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
                     }`}
                   >
-                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter text-white leading-tight drop-shadow-lg">
-                      {slide.headline}
-                    </h1>
+                    {index === 0 ? (
+                      <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter text-white leading-tight drop-shadow-lg">
+                        {slide.headline}
+                      </h1>
+                    ) : (
+                      <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter text-white leading-tight drop-shadow-lg">
+                        {slide.headline}
+                      </h2>
+                    )}
                     <div className="w-20 h-1.5 bg-red-600 my-5 sm:my-6" />
                     <p className="text-base sm:text-lg lg:text-xl text-gray-200 leading-relaxed drop-shadow-md">
                       {slide.subheadline}

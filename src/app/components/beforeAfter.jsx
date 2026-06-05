@@ -21,13 +21,17 @@ const beforeAfterData = [
   {
     before: b1,
     after: a1,
+    altBefore: 'Before: Vehicle with collision damage to front end',
+    altAfter: 'After: Precision collision restoration with flawless finish',
     title: "Precision Collision Restoration",
     description:
-      "From minor dings to major repairs, our I-CAR certified technicians restore your vehicle to its pre-accident condition with meticulous care.",
+      "From minor dings to major repairs, our expert technicians restore your vehicle to its pre-accident condition with meticulous care.",
   },
   {
     before: b2,
     after: a2,
+    altBefore: 'Before: Car with paint damage and imperfections',
+    altAfter: 'After: Flawless factory-match paint and finishing',
     title: "Flawless Paint & Finishing",
     description:
       "Using state-of-the-art color matching technology, we deliver seamless paint jobs that blend perfectly with your factory finish.",
@@ -35,6 +39,8 @@ const beforeAfterData = [
   {
     before: b3,
     after: a3,
+    altBefore: 'Before: Vehicle requiring detailed bodywork',
+    altAfter: 'After: Meticulous five-star quality body repair',
     title: "Meticulous Attention to Detail",
     description:
       "We believe perfection is in the details. Every repair is inspected to ensure it meets our five-star standard of quality.",
@@ -42,7 +48,7 @@ const beforeAfterData = [
 ];
 
 // Reusable Image Comparison Slider Component (Next.js <Image />)
-const ImageComparisonSlider = ({ before, after, isLarge = false }) => {
+const ImageComparisonSlider = ({ before, after, altBefore = 'Before repair', altAfter = 'After repair', isLarge = false }) => {
   const [sliderPosition, setSliderPosition] = useState(50);
   const imageContainerRef = useRef(null);
 
@@ -84,7 +90,7 @@ const ImageComparisonSlider = ({ before, after, isLarge = false }) => {
       <div className="absolute inset-0">
         <Image
           src={before}
-          alt="Before repair"
+          alt={altBefore}
           fill
           sizes="(max-width: 1024px) 100vw, 33vw"
           className="object-cover"
@@ -99,7 +105,7 @@ const ImageComparisonSlider = ({ before, after, isLarge = false }) => {
       >
         <Image
           src={after}
-          alt="After repair"
+          alt={altAfter}
           fill
           sizes="(max-width: 1024px) 100vw, 33vw"
           className="object-cover"
@@ -177,6 +183,8 @@ const Lightbox = ({ items, activeIndex, onClose, onNext, onPrev }) => {
           <ImageComparisonSlider
             before={item.before}
             after={item.after}
+            altBefore={item.altBefore}
+            altAfter={item.altAfter}
             isLarge
           />
           <div className="mt-4 text-center">
@@ -233,7 +241,7 @@ const BeforeAfterHome = () => {
               onClick={() => openLightbox(index)}
               aria-label={`Open ${item.title}`}
             >
-              <ImageComparisonSlider before={item.before} after={item.after} />
+              <ImageComparisonSlider before={item.before} after={item.after} altBefore={item.altBefore} altAfter={item.altAfter} />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-white">{item.title}</h3>
                 <p className="mt-2 text-gray-400">{item.description}</p>

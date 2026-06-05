@@ -329,7 +329,7 @@ export default function ServiceLocationTemplate({ service, location, content }) 
                 <ul className="space-y-4">
                   {[
                     "15+ years of experience with 1,000+ satisfied customers",
-                    "Perfect 5-star Google rating with 50+ reviews",
+                    "Perfect 5-star Google rating with 500+ reviews",
                     "Family-owned shop - personal care from owner Mary and the team",
                     "All insurance claims handled - we do the paperwork for you",
                     "Up to $500 deductible forgiveness",
@@ -353,7 +353,7 @@ export default function ServiceLocationTemplate({ service, location, content }) 
                       <span key={i}>{"\u2605"}</span>
                     ))}
                   </div>
-                  <p className="text-gray-400 mb-6">Google Rating {"\u2022"} 50+ Reviews</p>
+                  <p className="text-gray-400 mb-6">Google Rating {"\u2022"} 500+ Reviews</p>
                   <blockquote className="text-gray-300 italic text-lg mb-4">
                     &ldquo;{location.testimonial.quote}&rdquo;
                   </blockquote>

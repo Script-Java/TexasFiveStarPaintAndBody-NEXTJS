@@ -97,7 +97,7 @@
 - **Full spectrum under one roof** — collision repair, custom paint, classic restoration, PDR, headlight restoration, and lease reconditioning all at one shop
 - **Luxury & exotic vehicle specialists** — certified technicians for aluminum, carbon fiber, and high-end finishes
 - **Artisan-level craftsmanship** — treats every vehicle as a work of art (not an assembly line)
-- **15+ years of experience** with 1,000+ satisfied customers and a perfect 5-star Google rating (50+ reviews)
+- **15+ years of experience** with 1,000+ satisfied customers and a perfect 5-star Google rating (500+ reviews)
 - **Complete insurance assistance** — handles all claims paperwork so the customer doesn't have to
 - **Up to $500 deductible forgiveness** — unique financial incentive
 - **Family-owned & personal** — owner Mary and the team keep customers informed and treated with genuine care
@@ -112,7 +112,7 @@
 
 | Objection | Response |
 |-----------|----------|
-| "How do I know the quality will be good?" | 50+ five-star Google reviews, before/after gallery on site, and every job is inspected to our five-star standard before handoff. |
+| "How do I know the quality will be good?" | 500+ five-star Google reviews, before/after gallery on site, and every job is inspected to our five-star standard before handoff. |
 | "Will you work with my insurance?" | Absolutely — we handle all insurance claims and paperwork. We also offer up to $500 deductible forgiveness. |
 | "I have a luxury/exotic car — can you handle it?" | Yes — we have certified technicians trained in aluminum, carbon fiber, and high-end vehicle repair with a discreet, secure facility. |
 | "How long will it take?" | Depends on the scope, but we're known for fast turnaround. PDR can be same-day. We keep you informed on timeline throughout. |
@@ -196,7 +196,7 @@
 **Metrics:**
 - 15+ years of experience
 - 1,000+ satisfied customers
-- Perfect 5-star Google rating (50+ reviews)
+- Perfect 5-star Google rating (500+ reviews)
 - Certified expert technicians
 
 **Customers:** Everyday drivers, luxury owners (Bentley, Maserati, Porsche, Mercedes-Benz, BMW featured in imagery), classic car enthusiasts (Shelby Cobra, Mustang, muscle cars)
@@ -230,7 +230,7 @@
 
 **Current metrics:**
 - Website: texasfivestarpaintandbody.com (Next.js, SEO-optimized)
-- Google Business: 5-star rating, 50+ reviews
+- Google Business: 5-star rating, 500+ reviews
 - Social: Active on Instagram, Facebook, Yelp, Google
 
 ## Contact & Location

@@ -19,8 +19,8 @@ import a3 from "../assets/img/baf/6.jpg";
 // Data for the before and after showcases
 const beforeAfterData = [
   {
-    before: b1,
-    after: a1,
+    before: a1,
+    after: b1,
     altBefore: 'Before: Vehicle with collision damage to front end',
     altAfter: 'After: Precision collision restoration with flawless finish',
     title: "Precision Collision Restoration",
@@ -28,8 +28,8 @@ const beforeAfterData = [
       "From minor dings to major repairs, our expert technicians restore your vehicle to its pre-accident condition with meticulous care.",
   },
   {
-    before: b2,
-    after: a2,
+    before: a2,
+    after: b2,
     altBefore: 'Before: Car with paint damage and imperfections',
     altAfter: 'After: Flawless factory-match paint and finishing',
     title: "Flawless Paint & Finishing",
@@ -37,8 +37,8 @@ const beforeAfterData = [
       "Using state-of-the-art color matching technology, we deliver seamless paint jobs that blend perfectly with your factory finish.",
   },
   {
-    before: b3,
-    after: a3,
+    before: a3,
+    after: b3,
     altBefore: 'Before: Vehicle requiring detailed bodywork',
     altAfter: 'After: Meticulous five-star quality body repair',
     title: "Meticulous Attention to Detail",

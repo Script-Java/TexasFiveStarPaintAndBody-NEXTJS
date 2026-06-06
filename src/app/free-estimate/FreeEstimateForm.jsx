@@ -10,8 +10,12 @@ const servicesList = [
   "Custom Paint & Refinishing",
   "Paintless Dent Repair (PDR)",
   "Auto Restoration",
-  "Headlight Restoration",
-  "Lease Return Reconditioning",
+  "Scratch & Paint Chip Repair",
+  "Bumper Repair",
+  "ADAS Calibration",
+  "Rust Repair",
+  "Auto Insurance Claim Repair",
+  "Hail Repair",
   "Other / Not Sure"
 ];
 

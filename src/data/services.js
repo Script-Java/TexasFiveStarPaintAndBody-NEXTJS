@@ -161,81 +161,237 @@ export const services = [
     ],
   },
   {
-    slug: "headlight-restoration",
-    name: "Headlight Restoration",
-    shortName: "Headlight Restoration",
-    iconName: "sun",
+    slug: "scratch-paint-chip-repair",
+    name: "Scratch & Paint Chip Repair",
+    shortName: "Scratch Repair",
+    iconName: "pen-tool",
     heroImage: "14",
-    metaTitleTemplate: "Headlight Restoration in {city}, TX | Texas Five Star Paint & Body",
+    metaTitleTemplate: "Scratch & Paint Chip Repair in {city}, TX | Texas Five Star Paint & Body",
     metaDescTemplate:
-      "Professional headlight restoration in {city}, TX. {uniqueHook}. UV sealant protection included. Call (469) 583-7377.",
+      "Expert scratch and paint chip repair in {city}, TX. {uniqueHook}. Flawless color matching. Call (469) 583-7377.",
     features: [
       {
-        title: "Oxidation & Yellowing Removal",
+        title: "Exact Color Matching",
         description:
-          "Texas sun breaks down polycarbonate headlight lenses over time, causing yellowing, hazing, and reduced light output. Our multi-stage process removes all oxidation to restore crystal clarity.",
+          "We utilize advanced computerized spectrophotometers to match your exact factory paint code, adjusting for natural UV fading to ensure a seamless, invisible repair.",
       },
       {
-        title: "Multi-Stage Wet Sanding",
+        title: "Deep Scratch Restoration",
         description:
-          "We use progressive wet sanding grits followed by machine polishing to remove surface damage layer by layer, achieving optical clarity without replacing the entire headlight assembly.",
+          "Scratches that penetrate the clear coat and base coat expose your vehicle to rust. We carefully fill, sand, and blend deep scratches so your panels look brand new.",
       },
       {
-        title: "UV Protection Sealant",
+        title: "Rock Chip Repair",
         description:
-          "After restoration, we apply a professional-grade UV-resistant sealant that protects your headlights from future oxidation and yellowing for 2\u20133 years, keeping them clear and bright.",
+          "Highway driving inevitably leads to hood and bumper rock chips. We repair these blemishes quickly, restoring the protective clear coat and preventing further damage.",
       },
     ],
     processSteps: [
-      { step: 1, title: "Inspection", description: "We assess the severity of oxidation, yellowing, and any cracks or moisture intrusion in your headlight assemblies." },
-      { step: 2, title: "Wet Sanding", description: "Progressive wet sanding from coarse to fine grits removes the damaged outer layer of the polycarbonate lens." },
-      { step: 3, title: "Polish & Clarity", description: "Machine polishing restores optical clarity, maximizing light output and improving nighttime visibility." },
-      { step: 4, title: "UV Sealant", description: "A professional UV-resistant sealant is applied to protect against future sun damage and keep headlights clear." },
+      { step: 1, title: "Damage Assessment", description: "We inspect the depth of the scratch or chip to determine if it requires a simple clear coat correction or a multi-stage paint blend." },
+      { step: 2, title: "Surface Preparation", description: "The damaged area is meticulously cleaned, sanded, and smoothed to create a perfect foundation for the new paint." },
+      { step: 3, title: "Precision Application", description: "Using computerized color matching, we apply base coat and clear coat seamlessly into the surrounding area." },
+      { step: 4, title: "Polishing & Blending", description: "The repaired area is wet-sanded and buffed to a brilliant, factory-fresh shine, completely eliminating any trace of the damage." },
     ],
     faq: [
-      { q: "How long does headlight restoration take?", a: "Most headlight restorations are completed in 1\u20132 hours. It's one of our quickest services - you can often wait while we work." },
-      { q: "Is restoration better than replacing headlights?", a: "In most cases, yes. Restoration costs a fraction of replacement (new assemblies can cost $200\u2013$800+ each) and delivers comparable clarity. We'll recommend replacement only if the lens is cracked or has internal moisture damage." },
-      { q: "Will restored headlights pass Texas inspection?", a: "Absolutely. Our restoration process brings headlights back to like-new clarity, which easily meets Texas safety inspection requirements for light output." },
-      { q: "How long do results last?", a: "With our UV sealant protection, restored headlights stay clear for 2\u20133 years. We recommend reapplying sealant after that to maintain protection." },
+      { q: "Can all scratches be buffed out?", a: "No. If a scratch catches your fingernail, it has likely penetrated the clear coat and requires repainting and blending. Lighter surface scratches can often be resolved with professional polishing." },
+      { q: "Will the repaired area match the rest of my car?", a: "Yes. Our digital color matching system ensures a flawless blend, even on older vehicles with slight UV fading. Our 500+ 5-star reviews highlight our invisible repair quality." },
+      { q: "How long does paint chip repair take?", a: "Minor chip and scratch repairs can often be completed in 1 to 2 days, getting you back on the road quickly without compromising quality." },
+      { q: "Does insurance cover scratch repair?", a: "It depends on the cause and your policy. If the scratch is from vandalism or a collision, comprehensive coverage usually applies. We can help you navigate the claims process." },
     ],
   },
   {
-    slug: "lease-return-reconditioning",
-    name: "Lease Return Reconditioning",
-    shortName: "Lease Return Prep",
-    iconName: "refresh",
+    slug: "bumper-repair",
+    name: "Bumper Repair",
+    shortName: "Bumper Repair",
+    iconName: "shield",
     heroImage: "15",
-    metaTitleTemplate: "Lease Return Reconditioning in {city}, TX | Texas Five Star Paint & Body",
+    metaTitleTemplate: "Bumper Repair in {city}, TX | Texas Five Star Paint & Body",
     metaDescTemplate:
-      "Lease return reconditioning in {city}, TX. {uniqueHook}. Avoid excess wear charges. Call (469) 583-7377.",
+      "Professional bumper repair and replacement in {city}, TX. {uniqueHook}. Free estimates. Call (469) 583-7377.",
     features: [
       {
-        title: "Pre-Inspection Assessment",
+        title: "Plastic Welding & Reshaping",
         description:
-          "We perform the same inspection dealerships use at lease-end, identifying every item that could trigger excess wear charges - so you know exactly what to fix before turn-in.",
+          "We don't just replace every dented bumper. Using specialized heat techniques and plastic welding, we can often reshape and repair cracked or pushed-in bumper covers, saving you money.",
       },
       {
-        title: "Scuffs & Scratch Repair",
+        title: "Sensor & ADAS Calibration",
         description:
-          "We repair paint scratches, scuffs, key marks, and chips that would be flagged during lease inspection. Our color-matching technology ensures invisible repairs that pass scrutiny.",
+          "Modern bumpers house crucial safety sensors. When we repair or replace your bumper, we recalibrate your parking sensors and collision avoidance systems to factory specifications.",
       },
       {
-        title: "Dings & Bumper Reconditioning",
+        title: "Flawless Refinishing",
         description:
-          "Door dings, parking lot dents, bumper scuffs, and curb rash on bumper corners are all addressed. We restore these high-visibility areas to lease-return standards.",
+          "Every bumper repair is finished with our computerized color-matching system, ensuring the new paint blends perfectly with your vehicle's adjacent fenders and hood.",
       },
     ],
     processSteps: [
-      { step: 1, title: "Lease Inspection", description: "We evaluate your vehicle using dealership lease-return standards, documenting every item that could incur charges." },
-      { step: 2, title: "Repair Plan", description: "We present a prioritized repair list comparing our costs vs. the dealer's excess wear charges - you choose what to fix." },
-      { step: 3, title: "Reconditioning", description: "Our team addresses scratches, dents, bumper damage, and any other flagged items to bring your vehicle to return-ready condition." },
-      { step: 4, title: "Final Review", description: "A final inspection ensures every repair meets lease-return standards, giving you confidence at turn-in." },
+      { step: 1, title: "Damage Inspection", description: "We assess the bumper cover, energy absorbers, and underlying reinforcement bar to determine if a repair or replacement is safest." },
+      { step: 2, title: "Reshaping & Repair", description: "For repairable damage, we use specialized tools to massage out dents, weld plastic cracks, and smooth the surface." },
+      { step: 3, title: "Color Match Painting", description: "The bumper is primed, painted, and clear-coated in our downdraft booth to perfectly match your vehicle's exact shade." },
+      { step: 4, title: "Reassembly & Calibration", description: "We meticulously reassemble the bumper and recalibrate any integrated safety sensors to ensure optimal functionality." },
     ],
     faq: [
-      { q: "When should I get my lease car inspected?", a: "Ideally 4\u20136 weeks before your lease-end date. This gives us time to complete any repairs before the dealership's pre-return inspection." },
-      { q: "How much can I save vs. dealer charges?", a: "Dealers typically charge 2\u20133x what an independent body shop charges for the same repairs. Our customers routinely save $500\u2013$2,000+ by reconditioning before turn-in." },
-      { q: "What counts as 'excess wear' on a lease?", a: "Common flags include scratches longer than 2 inches, dents larger than a quarter, bumper scuffs, wheel damage, and interior stains or tears. Standards vary by manufacturer." },
-      { q: "Do you handle all lease brands?", a: "Yes - we're experienced with lease-return standards for Toyota, Honda, BMW, Mercedes-Benz, Lexus, Ford, Chevrolet, and all other manufacturers." },
+      { q: "Should I repair or replace my bumper?", a: "We always aim to repair your bumper if it's safe and cost-effective. However, severe structural damage, large tears, or broken mounting tabs usually require a full replacement for safety." },
+      { q: "How long does a bumper repair take?", a: "Most bumper repairs or replacements take 2 to 4 days, depending on parts availability and whether sensor calibration is required." },
+      { q: "Do you fix scratches and scuffs on bumpers?", a: "Yes, we handle everything from minor parking lot scuffs to complete structural bumper replacements, always delivering a factory-quality finish." },
+      { q: "Will the new paint match the rest of the car?", a: "Absolutely. We use a computerized spectrophotometer to analyze your current paint, accounting for age and sun fading, for an invisible blend." },
+    ],
+  },
+  {
+    slug: "adas-calibration",
+    name: "ADAS Calibration",
+    shortName: "ADAS Calibration",
+    iconName: "crosshair",
+    heroImage: "11",
+    metaTitleTemplate: "ADAS Calibration in {city}, TX | Texas Five Star Paint & Body",
+    metaDescTemplate:
+      "Certified ADAS calibration in {city}, TX. {uniqueHook}. Ensure your safety systems work perfectly. Call (469) 583-7377.",
+    features: [
+      {
+        title: "Complete System Calibration",
+        description:
+          "We calibrate forward-facing cameras, blind-spot monitors, adaptive cruise control radars, and parking sensors to ensure your vehicle's safety systems function exactly as intended.",
+      },
+      {
+        title: "OEM-Level Diagnostic Tools",
+        description:
+          "Our facility is equipped with state-of-the-art diagnostic scanners and targeting systems that meet or exceed manufacturer specifications for precise calibration.",
+      },
+      {
+        title: "Post-Collision Safety Verification",
+        description:
+          "Even a minor fender bender can knock a sensor out of alignment by a fraction of a degree. We verify and recalibrate every affected system before your vehicle returns to the road.",
+      },
+    ],
+    processSteps: [
+      { step: 1, title: "Diagnostic Scan", description: "We perform a comprehensive pre-scan to identify any fault codes or misalignments in your Advanced Driver Assistance Systems (ADAS)." },
+      { step: 2, title: "Target Setup", description: "Using manufacturer-specific schematics, we set up precise physical targets and lasers around your vehicle in a controlled environment." },
+      { step: 3, title: "Static & Dynamic Calibration", description: "We run the required static calibrations in-shop, followed by dynamic on-road calibrations if specified by the manufacturer." },
+      { step: 4, title: "Verification & Documentation", description: "We perform a final post-scan to confirm all systems are functioning properly and provide you with a detailed calibration report." },
+    ],
+    faq: [
+      { q: "What is ADAS?", a: "ADAS stands for Advanced Driver Assistance Systems. This includes safety features like lane departure warnings, automatic emergency braking, blind-spot monitoring, and adaptive cruise control." },
+      { q: "When do I need an ADAS calibration?", a: "Calibration is required after a collision, bumper replacement, windshield replacement, suspension work, or any repair that disturbs the mounting location of a camera or radar sensor." },
+      { q: "Why is calibration so important?", a: "A sensor misaligned by just a fraction of an inch can result in automatic emergency braking engaging too late or lane departure warnings failing to alert you. Calibration ensures your safety systems work when you need them." },
+      { q: "Does insurance cover ADAS calibration?", a: "Yes. If your vehicle is being repaired under an insurance claim, ADAS calibration is a required safety procedure and is covered as part of the overall repair." },
+    ],
+  },
+  {
+    slug: "rust-repair",
+    name: "Rust Repair",
+    shortName: "Rust Repair",
+    iconName: "alert-triangle",
+    heroImage: "12",
+    metaTitleTemplate: "Rust Repair in {city}, TX | Texas Five Star Paint & Body",
+    metaDescTemplate:
+      "Professional rust repair and prevention in {city}, TX. {uniqueHook}. Stop corrosion before it spreads. Call (469) 583-7377.",
+    features: [
+      {
+        title: "Complete Oxidation Removal",
+        description:
+          "We don't just cover up rust; we eliminate it. We grind down to bare metal, cut out severely corroded sections, and weld in fresh steel to ensure the rust never returns.",
+      },
+      {
+        title: "Corrosion Prevention Treatments",
+        description:
+          "After the repair, we apply specialized epoxy primers, rust inhibitors, and undercoatings to seal the metal from moisture, salt, and oxygen, protecting your investment long-term.",
+      },
+      {
+        title: "Seamless Metal Fabrication",
+        description:
+          "For classic cars or vehicles with extensive damage, our skilled fabricators hand-shape custom metal patches to match your vehicle's original contours perfectly.",
+      },
+    ],
+    processSteps: [
+      { step: 1, title: "Thorough Inspection", description: "We assess the visible rust and probe for hidden structural corrosion underneath paint bubbles or undercarriage components." },
+      { step: 2, title: "Eradication & Cutting", description: "We aggressively remove all oxidized metal. For surface rust, we grind to bare steel. For deep rot, we cut out the affected area entirely." },
+      { step: 3, title: "Welding & Shaping", description: "New sheet metal is precision-welded into place, ground smooth, and shaped to restore the exact factory body lines." },
+      { step: 4, title: "Sealing & Refinishing", description: "The repair is sealed with epoxy primer to prevent future moisture intrusion, then color-matched, painted, and clear-coated." },
+    ],
+    faq: [
+      { q: "Is rust repair worth it on an older car?", a: "It depends on the extent of the damage and the value of the vehicle. Surface rust should always be treated to prevent spreading. We offer free estimates to help you make an informed decision." },
+      { q: "Why can't you just paint over rust?", a: "Painting over rust only hides the problem temporarily. Rust is an active chemical reaction; if not completely removed and sealed, it will continue eating the metal underneath the new paint." },
+      { q: "Do you repair rusted frames?", a: "Yes, we have the capability to weld and reinforce frames affected by corrosion, provided the structural integrity can be safely restored to factory standards." },
+      { q: "How long does rust repair take?", a: "Minor surface rust can be repaired in a few days. Extensive panel replacement or custom metal fabrication can take one to two weeks. We'll provide a clear timeline during your consultation." },
+    ],
+  },
+  {
+    slug: "auto-insurance-claim-repair",
+    name: "Auto Insurance Claim Repair",
+    shortName: "Insurance Claims",
+    iconName: "file-text",
+    heroImage: "13",
+    metaTitleTemplate: "Auto Insurance Claim Repair in {city}, TX | Texas Five Star Paint & Body",
+    metaDescTemplate:
+      "Hassle-free auto insurance claim repair in {city}, TX. {uniqueHook}. We handle the paperwork. Call (469) 583-7377.",
+    features: [
+      {
+        title: "Direct Insurance Communication",
+        description:
+          "We act as your advocate, communicating directly with your insurance adjuster to ensure all necessary repairs are approved and your vehicle is returned to pre-accident condition without cutting corners.",
+      },
+      {
+        title: "Deductible Assistance Options",
+        description:
+          "We understand that accidents are a financial strain. Depending on the scope of the repair, we offer up to $500 in deductible forgiveness to help reduce your out-of-pocket costs.",
+      },
+      {
+        title: "Lifetime Repair Warranty",
+        description:
+          "All of our collision repairs performed under an insurance claim come with a lifetime warranty on workmanship and paint, giving you absolute peace of mind on the road.",
+      },
+    ],
+    processSteps: [
+      { step: 1, title: "Drop-Off & Estimate", description: "Bring your vehicle in or have it towed to us. We'll write a comprehensive initial estimate and contact your insurance provider." },
+      { step: 2, title: "Supplement Negotiation", description: "Insurance estimates often miss hidden damage. We disassemble the vehicle, document all unseen issues, and negotiate supplements directly with the adjuster." },
+      { step: 3, title: "Approved Repairs", description: "Once the insurance company approves the full repair plan, our expert technicians restore your vehicle using OEM-approved methods." },
+      { step: 4, title: "Final Walkthrough", description: "We handle the final billing with your insurance. You simply pay your deductible (if applicable) and drive away in a flawlessly repaired vehicle." },
+    ],
+    faq: [
+      { q: "Do I have to use the body shop my insurance recommends?", a: "No. Under Texas law, you have the absolute right to choose the collision center that repairs your vehicle. Insurance companies cannot force you to use their 'preferred' network shops." },
+      { q: "Will you handle the paperwork?", a: "Yes. From filing the initial estimate to negotiating supplements and handling the final billing, our team manages the entire claims process on your behalf." },
+      { q: "What if the insurance company's estimate is too low?", a: "This is very common. Initial estimates are based only on visible damage. We write a 'supplement' for any hidden damage found during disassembly and get it approved directly by the adjuster." },
+      { q: "How does the deductible forgiveness work?", a: "We analyze the repair margin and, when possible, absorb a portion of the cost to lower your out-of-pocket deductible expense by up to $500. Ask us during your free estimate!" },
+    ],
+  },
+  {
+    slug: "hail-repair",
+    name: "Hail Repair",
+    shortName: "Hail Repair",
+    iconName: "cloud-rain",
+    heroImage: "9",
+    metaTitleTemplate: "Auto Hail Repair in {city}, TX | Texas Five Star Paint & Body",
+    metaDescTemplate:
+      "Expert auto hail damage repair in {city}, TX. {uniqueHook}. Paintless dent repair & full bodywork. Call (469) 583-7377.",
+    features: [
+      {
+        title: "Paintless Dent Repair (PDR)",
+        description:
+          "For most hail damage, we use advanced PDR techniques to massage dents out from behind the panel. This preserves your factory paint finish, maintains your vehicle's value, and speeds up repair times.",
+      },
+      {
+        title: "Comprehensive Storm Repair",
+        description:
+          "Severe Texas hail can shatter windshields, crack taillights, and chip paint. We handle the entire repair process, including glass replacement, molding repairs, and conventional bodywork for severe impacts.",
+      },
+      {
+        title: "Insurance Claims Managed",
+        description:
+          "Hail damage falls under your comprehensive insurance coverage. We handle the entire claim process, negotiate with adjusters to ensure every dent is accounted for, and often cover your deductible.",
+      },
+    ],
+    processSteps: [
+      { step: 1, title: "Specialized Lighting Inspection", description: "We wash your vehicle and place it under specialized LED lights to identify and count every single hail dent—even the micro-dents insurance adjusters miss." },
+      { step: 2, title: "Insurance Approval", description: "We submit a highly detailed estimate to your insurance company and negotiate the claim to ensure full coverage for a proper repair." },
+      { step: 3, title: "PDR & Conventional Repair", description: "Our master PDR technicians remove minor dents, while our body shop team replaces cracked glass and repaints panels with severe paint-breaking impacts." },
+      { step: 4, title: "Quality Assurance", description: "Every repaired panel is inspected under high-intensity lights to guarantee a perfectly smooth, factory-grade finish before delivery." },
+    ],
+    faq: [
+      { q: "Will filing a hail claim increase my insurance rates?", a: "No. Hail damage is considered an 'Act of God' and falls under your comprehensive coverage. Filing a claim for hail damage will not raise your individual insurance premiums." },
+      { q: "Do you cover my deductible for hail damage?", a: "In most hail repair cases, yes! We offer up to $500 in deductible assistance, which often means zero out-of-pocket cost to you." },
+      { q: "How long does hail repair take?", a: "Standard PDR hail repair typically takes 3 to 5 days. If the damage requires conventional bodywork or glass replacement, the repair may take 1 to 2 weeks." },
+      { q: "Can't I just leave the hail damage alone?", a: "You can, but it severely depreciates your vehicle's value. Furthermore, if you are in a future collision, the insurance company will deduct the 'pre-existing' hail damage from your payout, leaving you under-compensated." },
     ],
   },
 ];

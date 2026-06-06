@@ -55,7 +55,7 @@ const galleryImages = [
   { id: 11, src: img11, category: "pdr", alt: "Paintless dent repair (PDR) results on a car door with severe Texas hail damage." },
   { id: 12, src: img12, category: "paint", alt: "European sports car looking brand new after full detailing and auto paint correction." },
   { id: 13, src: img13, category: "paint", alt: "Custom vinyl wrap application on a modern performance car in Garland, TX." },
-  { id: 14, src: img14, category: "paint", alt: "Showroom-quality finish on a black SUV after paint correction and ceramic coating." },
+  { id: 14, src: img14, category: "paint", alt: "Showroom-quality finish on a black SUV after paint correction and sealant application." },
   { id: 15, src: img15, category: "restoration", alt: "Blue classic sports car fully restored at our premier auto body shop in Garland." },
   { id: 16, src: img16, category: "collision", alt: "Luxury white sedan after extensive front-end collision repair and frame straightening." },
   { id: 17, src: img17, category: "paint", alt: "Orange muscle car featuring a flawless custom paint job by our DFW experts." },

@@ -13,18 +13,17 @@ import img4 from "../assets/img/4.jpg";
 import img5 from "../assets/img/5.jpg";
 import img6 from "../assets/img/6.jpg";
 import img7 from "../assets/img/7.jpg";
-import img8 from "../assets/img/8.jpg";
 
 const slides = [
   {
     src: img1,
     alt: "Flawless blue paint restoration on a classic Shelby Cobra at our Garland body shop.",
-    headline: "Classic Car Restoration",
-    subheadline: "Frame-off builds, factory-correct paint, and the craftsmanship to bring your classic back to showroom condition.",
+    headline: "Auto Body Shop in Garland, TX | Texas Five Star Paint & Body",
+    subheadline: "Dealership-quality collision repair, custom paint, and classic car restoration backed by 500+ 5-star reviews.",
     details: [
-      "Frame-Off & Rotisserie Restorations",
-      "Original Factory Spec Painting",
-      "Period-Correct Part Sourcing",
+      "Precision Collision Repair",
+      "Factory-Match Paint & Refinishing",
+      "All Insurance Claims Handled",
     ],
   },
   {
@@ -45,15 +44,15 @@ const slides = [
     src: img4,
     alt: "Bentley undergoing detailed body work at our secure facility in Garland, Texas.",
     headline: "Luxury & Exotic Car Specialists",
-    subheadline: "Certified technicians trained in aluminum and carbon fiber repair for Porsche, BMW, Mercedes, Bentley, and more.",
-    details: ["Aluminum & Carbon Fiber Repair", "Certified High-End Vehicle Technicians", "Discreet & Secure Facility"],
+    subheadline: "Backed by 500+ 5-star reviews. Trained in aluminum and carbon fiber repair for Porsche, BMW, Mercedes, Bentley, and more.",
+    details: ["Aluminum & Carbon Fiber Repair", "500+ 5-Star Reviews", "Discreet & Secure Facility"],
   },
   {
     src: img5,
     alt: "A red Ford Mustang with a high-gloss finish after paint correction service.",
     headline: "Paint Correction & Protection",
-    subheadline: "Multi-stage polishing removes swirl marks and oxidation, then we seal it with ceramic coating for lasting protection.",
-    details: ["Multi-Stage Compound & Polishing", "Hologram & Swirl Mark Removal", "Ceramic Coating Application"],
+    subheadline: "Multi-stage polishing removes swirl marks and oxidation, then we seal it with premium sealant for lasting protection.",
+    details: ["Multi-Stage Compound & Polishing", "Hologram & Swirl Mark Removal", "Premium Sealant Application"],
   },
   {
     src: img6,
@@ -68,13 +67,6 @@ const slides = [
     headline: "Complete Collision & Body Work",
     subheadline: "Bumper repair, frame alignment, scratch removal - every repair backed by our five-star quality guarantee.",
     details: ["Bumper Repair & Replacement", "Frame Straightening & Alignment", "Scratch & Chip Repair"],
-  },
-  {
-    src: img8,
-    alt: "A luxury Maserati getting a final polish on its custom paint job.",
-    headline: "Ceramic Coating & Paint Protection",
-    subheadline: "Professional-grade graphene and ceramic coatings that shield your finish from UV, chemicals, and everyday wear for years.",
-    details: ["Graphene & Ceramic Pro Coatings", "Concourse-Level Detailing", "Interior & Exterior Protection"],
   },
 ];
 

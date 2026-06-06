@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FiArrowUpRight, FiTool, FiDroplet, FiStar, FiShield, FiCheck, FiSun, FiRefreshCw } from "react-icons/fi";
+import { FiArrowUpRight, FiTool, FiDroplet, FiStar, FiShield, FiCheck, FiEdit2, FiMaximize, FiTarget, FiAlertTriangle, FiFileText, FiCloudRain } from "react-icons/fi";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";  // update path if yours differs
 
@@ -13,8 +13,12 @@ import collisionImg from "../assets/img/11.jpg";
 import paintImg from "../assets/img/12.jpg";
 import restorationImg from "../assets/img/9.jpg";
 import pdrImg from "../assets/img/13.jpg";
-import headlightImg from "../assets/img/14.jpg";
-import leaseReturnImg from "../assets/img/15.jpg";
+import scratchImg from "../assets/img/1.jpg";
+import bumperImg from "../assets/img/2.jpg";
+import adasImg from "../assets/img/3.jpg";
+import rustImg from "../assets/img/4.jpg";
+import insuranceImg from "../assets/img/5.jpg";
+import hailImg from "../assets/img/6.jpg";
 
 const servicesData = [
   {
@@ -22,7 +26,7 @@ const servicesData = [
     title: "Collision Repair",
     slug: "collision-repair",
     description:
-      "Frame straightening, panel replacement, and bumper repair that restores your car to pre-accident condition. We handle all insurance claims and offer up to $500 deductible forgiveness.",
+      "Collision Repair is a comprehensive process that restores your vehicle's structural integrity and appearance to pre-accident condition. Backed by 500+ 5-star reviews, our team handles all insurance claims and offers up to $500 deductible forgiveness, saving our average customer hundreds in out-of-pocket costs.",
     image: collisionImg,
     details: ["Frame Straightening", "Panel Replacement", "Bumper & Fender Repair"],
   },
@@ -31,7 +35,7 @@ const servicesData = [
     title: "Custom Paint & Refinishing",
     slug: "custom-paint-refinishing",
     description:
-      "Computerized color matching for invisible repair blending, plus candy, pearl, and metallic custom finishes. Premium PPG and Axalta paints applied in our climate-controlled spray booth.",
+      "Custom Paint & Refinishing is a premium auto body service that uses computerized color matching for invisible repair blending, alongside custom candy, pearl, and matte finishes. We utilize premium PPG and Axalta paints in a climate-controlled spray booth to guarantee a 100% factory match and a finish that lasts for years.",
     image: paintImg,
     details: ["Factory Color Matching", "Custom Colors & Finishes", "Paint Correction & Polishing"],
   },
@@ -40,7 +44,7 @@ const servicesData = [
     title: "Auto Restoration",
     slug: "auto-restoration",
     description:
-      "Frame-off and rotisserie restorations for classic muscle cars and vintage vehicles. Period-correct paint, factory-spec metalwork, and the craftsmanship to earn top marks at any car show.",
+      "Auto Restoration is the meticulous process of returning classic muscle cars and vintage vehicles to factory specifications. This includes frame-off and rotisserie restorations, period-correct paint applications, and expert metalwork—delivering concourse-level craftsmanship that preserves the value of your classic vehicle.",
     image: restorationImg,
     details: ["Classic & Muscle Cars", "Frame-Off Restorations", "Period-Correct Finishing"],
   },
@@ -49,27 +53,63 @@ const servicesData = [
     title: "Paintless Dent Repair (PDR)",
     slug: "paintless-dent-repair",
     description:
-      "Hail damage, parking lot dings, and door dents removed same-day without repainting. Your factory finish stays 100% intact - no filler, no color mismatch risk.",
+      "Paintless Dent Repair (PDR) is an innovative technique that removes hail damage, parking lot dings, and door dents without repainting. PDR is up to 50% faster than traditional bodywork and leaves your vehicle's factory finish 100% intact with zero risk of color mismatch.",
     image: pdrImg,
     details: ["Hail Damage Specialists", "Minor Dent & Ding Removal", "Maintains Factory Finish"],
   },
   {
-    icon: FiSun,
-    title: "Headlight Restoration",
-    slug: "headlight-restoration",
+    icon: FiEdit2,
+    title: "Scratch & Paint Chip Repair",
+    slug: "scratch-paint-chip-repair",
     description:
-      "Multi-stage wet sanding removes years of sun damage and yellowing, then we seal with UV protection that keeps headlights clear for 2–3 years. A fraction of the cost of full replacement.",
-    image: headlightImg,
-    details: ["Oxidation & Yellowing Removal", "Multi-stage Wet Sanding", "UV Protection Sealant"],
+      "Scratch & Paint Chip Repair involves professional touch-ups and spot blending to eliminate unsightly scratches and rock chips. This process prevents rust formation and restores the exterior appearance of your vehicle efficiently and cost-effectively.",
+    image: scratchImg,
+    details: ["Color-Matched Touch-Ups", "Clear Coat Blending", "Rust Prevention"],
   },
   {
-    icon: FiRefreshCw,
-    title: "Lease Return Reconditioning",
-    slug: "lease-return-reconditioning",
+    icon: FiMaximize,
+    title: "Bumper Repair",
+    slug: "bumper-repair",
     description:
-      "We inspect using dealership lease-return standards, then fix every scratch, ding, and bumper scuff the inspector would flag. Our customers routinely save $500–$2,000+ vs. dealer charges.",
-    image: leaseReturnImg,
-    details: ["Pre-Inspection Assessment", "Scuffs & Scratch Repair", "Dings & Bumper Reconditioning"],
+      "Bumper Repair is a specialized service for reshaping, welding, and refinishing damaged plastic bumpers. We restore structural integrity and factory appearance, saving customers an average of 40% compared to full bumper replacement when the damage allows.",
+    image: bumperImg,
+    details: ["Plastic Welding", "Dent Reshaping", "Factory Color Refinishing"],
+  },
+  {
+    icon: FiTarget,
+    title: "ADAS Calibration",
+    slug: "adas-calibration",
+    description:
+      "Precise recalibration of your vehicle's Advanced Driver Assistance Systems (cameras, radar, sensors) following collision repair or windshield replacement.",
+    image: adasImg,
+    details: ["Camera Recalibration", "Radar Alignment", "Pre/Post Repair Scanning"],
+  },
+  {
+    icon: FiAlertTriangle,
+    title: "Rust Repair",
+    slug: "rust-repair",
+    description:
+      "Thorough removal of oxidation, metal patching, and preventative sealing to stop rust from spreading and restore the structural integrity of your vehicle.",
+    image: rustImg,
+    details: ["Oxidation Removal", "Metal Fabrication & Patching", "Anti-Rust Undercoating"],
+  },
+  {
+    icon: FiFileText,
+    title: "Auto Insurance Claim Repair",
+    slug: "auto-insurance-claim-repair",
+    description:
+      "Auto Insurance Claim Repair is a streamlined service where we handle the entire claims process directly with your provider. We ensure complete repairs using OEM-approved procedures and offer up to $500 in deductible forgiveness to minimize your out-of-pocket expenses.",
+    image: insuranceImg,
+    details: ["Direct Insurance Billing", "Supplement Negotiation", "Deductible Assistance"],
+  },
+  {
+    icon: FiCloudRain,
+    title: "Hail Repair",
+    slug: "hail-repair",
+    description:
+      "Comprehensive hail damage restoration utilizing a mix of Paintless Dent Repair (PDR) and traditional bodywork for severe impacts. Fast turnaround to get you back on the road.",
+    image: hailImg,
+    details: ["Paintless Dent Repair (PDR)", "Panel Replacement if Needed", "Storm Damage Specialists"],
   },
 ];
 

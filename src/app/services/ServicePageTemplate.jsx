@@ -36,11 +36,13 @@ export default function ServicePageTemplate({
   features,
   processSteps,
   relatedServices,
+  faq,
 }) {
   const Icon = iconMap[iconName] || FiTool;
   const googleMapsUrl = "https://maps.app.goo.gl/P4kbxw5D3ktNxKi59";
 
-  const jsonLd = {
+  const jsonLdArray = [
+    {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: title,
@@ -58,13 +60,43 @@ export default function ServicePageTemplate({
         addressCountry: 'US',
       }
     }
-  };
+    }
+  ];
+
+  if (processSteps && processSteps.length > 0) {
+    jsonLdArray.push({
+      '@context': 'https://schema.org',
+      '@type': 'HowTo',
+      name: `How We Perform ${title}`,
+      step: processSteps.map((step, index) => ({
+        '@type': 'HowToStep',
+        position: index + 1,
+        name: step.title,
+        text: step.description
+      }))
+    });
+  }
+
+  if (faq && faq.length > 0) {
+    jsonLdArray.push({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faq.map(item => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer
+        }
+      }))
+    });
+  }
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArray) }}
       />
       <Navbar />
 
@@ -267,6 +299,42 @@ export default function ServicePageTemplate({
             </div>
           </section>
         )}
+
+        {/* FAQ Section */}
+        {faq && faq.length > 0 && (
+          <section className="py-16 sm:py-24 bg-neutral-900/30 border-t border-white/5">
+            <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center max-w-2xl mx-auto mb-12">
+                <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Frequently Asked Questions</h2>
+              </div>
+              <div className="max-w-3xl mx-auto space-y-4">
+                {faq.map((item, index) => (
+                  <div key={index} className="bg-neutral-900 rounded-xl p-6 border border-white/5">
+                    <h3 className="font-bold text-lg text-white mb-2">{item.question}</h3>
+                    <p className="text-gray-400">{item.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Expert Attribution */}
+        <section className="py-12 bg-neutral-950 border-t border-white/5">
+          <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-start sm:items-center gap-4 bg-neutral-900 p-6 sm:p-8 rounded-2xl border border-white/5 shadow-xl">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-red-600/20 flex items-center justify-center shrink-0">
+                <FiStar className="text-red-500 text-2xl sm:text-3xl" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white text-lg sm:text-xl">Expertly Reviewed</h3>
+                <p className="text-gray-400 text-sm sm:text-base mt-1 leading-relaxed">
+                  This service information has been reviewed and verified by the certified estimating and technical team at Texas Five Star Paint & Body. With over 15 years of hands-on experience and a perfect 5-star Google rating, we guarantee transparent processes and dealership-quality results on every job.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* CTA Section */}
         <section className="py-16 sm:py-24">

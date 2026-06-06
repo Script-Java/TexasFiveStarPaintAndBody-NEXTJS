@@ -6,12 +6,16 @@
 
 import { collisionPaintContent } from "./content-collision-paint";
 import { restorationPdrContent } from "./content-restoration-pdr";
-import { headlightLeaseContent } from "./content-headlight-lease";
+import { adasHailContent } from "./content-adas-hail";
+import { bumperScratchContent } from "./content-bumper-scratch";
+import { rustInsuranceContent } from "./content-rust-insurance";
 
 export const serviceLocationContent = {
   ...collisionPaintContent,
   ...restorationPdrContent,
-  ...headlightLeaseContent,
+  ...adasHailContent,
+  ...bumperScratchContent,
+  ...rustInsuranceContent,
 };
 
 /** Helper to get content for a specific combination */

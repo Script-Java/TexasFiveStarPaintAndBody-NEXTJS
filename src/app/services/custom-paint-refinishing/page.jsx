@@ -53,7 +53,7 @@ export default function CustomPaintRefinishingPage() {
           paragraphs: [
             'Texas Five Star Paint & Body delivers custom paint and refinishing services in Garland, TX that transform everyday vehicles into head-turners and restore weathered finishes to showroom brilliance. Our climate-controlled downdraft spray booths and computerized color-matching spectrophotometers ensure every coat of paint - whether a factory-exact repair or a full custom respray - goes on perfectly smooth, free of dust, orange peel, and color variance. We exclusively use PPG and Axalta basecoat–clearcoat systems, the same premium waterborne and solvent-borne materials trusted by OEM manufacturers and championship-winning custom shops across the country.',
             'Whether you want a deep candy apple red, a luminous three-stage pearl white, a satin matte finish, or simply need to restore your vehicle\'s original color after years of Texas sun exposure, our painters have the skill and technology to deliver stunning results. We offer complete surface preparation including chemical stripping, media blasting, epoxy priming, and high-build primer-surfacing to create a perfectly straight foundation before any color is applied. Every stage is block-sanded by hand to eliminate imperfections, because the quality of a paint job is only as good as what\'s underneath it.',
-            'Drivers across the DFW metroplex - from Garland, Mesquite, and Plano to Dallas, Fort Worth, and beyond - bring their daily drivers, show cars, and classic vehicles to our 214 Range Dr facility for refinishing work that rivals factory output. We stand behind every paint job with a written warranty, and our transparent process keeps you informed from color selection through final buffing and ceramic coating options.',
+            'Drivers across the DFW metroplex - from Garland, Mesquite, and Plano to Dallas, Fort Worth, and beyond - bring their daily drivers, show cars, and classic vehicles to our 214 Range Dr facility for refinishing work that rivals factory output. We stand behind every paint job with a written warranty, and our transparent process keeps you informed from color selection through final buffing and sealant options.',
           ],
         }}
         heroImage={heroImage}
@@ -72,7 +72,7 @@ export default function CustomPaintRefinishingPage() {
           {
             title: 'Paint Correction & Polishing',
             description:
-              'Years of automatic car washes, road debris, and harsh Texas sunlight take a toll on your vehicle\'s clearcoat, leaving behind swirl marks, water spots, oxidation, and micro-scratches. Our paint correction service uses a multi-stage machine polishing process - from heavy cutting compounds to ultra-fine finishing polishes - to remove defects and restore optical clarity to your finish. We finish with a protective sealant or ceramic coating application that shields the corrected surface and keeps your paint looking freshly detailed for months to come.',
+              'Years of automatic car washes, road debris, and harsh Texas sunlight take a toll on your vehicle\'s clearcoat, leaving behind swirl marks, water spots, oxidation, and micro-scratches. Our paint correction service uses a multi-stage machine polishing process - from heavy cutting compounds to ultra-fine finishing polishes - to remove defects and restore optical clarity to your finish. We finish with a protective sealant application that shields the corrected surface and keeps your paint looking freshly detailed for months to come.',
           },
         ]}
         processSteps={[
@@ -117,11 +117,11 @@ export default function CustomPaintRefinishingPage() {
               'Complete classic and muscle car restorations with period-correct and custom paint options.',
           },
           {
-            title: 'Headlight Restoration',
-            slug: 'headlight-restoration',
-            iconName: 'sun',
+            title: 'Scratch & Paint Chip Repair',
+            slug: 'scratch-paint-chip-repair',
+            iconName: 'edit2',
             shortDesc:
-              'Restore cloudy, yellowed headlights for improved visibility and a refreshed front-end appearance.',
+              'Eliminate unsightly scratches and rock chips with precision color matching.',
           },
         ]}
       />

@@ -4,12 +4,12 @@ import heroImage from '../../assets/img/11.jpg';
 export const metadata = {
   title: 'Collision Repair in Garland, TX | Texas Five Star Paint & Body',
   description:
-    'Expert collision repair in Garland, TX. Precision frame straightening, panel replacement & bumper repair by certified technicians. Insurance claims welcome. Free estimates.',
+    'Expert collision repair in Garland, TX. Precision frame straightening, panel replacement & bumper repair by technicians backed by 500+ 5-star reviews. Insurance claims welcome. Free estimates.',
   alternates: { canonical: '/services/collision-repair' },
   openGraph: {
     title: 'Collision Repair in Garland, TX | Texas Five Star Paint & Body',
     description:
-      'Expert collision repair in Garland, TX. Precision frame straightening, panel replacement & bumper repair by certified technicians. Insurance claims welcome.',
+      'Expert collision repair in Garland, TX. Precision frame straightening, panel replacement & bumper repair by technicians backed by 500+ 5-star reviews. Insurance claims welcome.',
     url: '/services/collision-repair',
   },
 };
@@ -51,7 +51,7 @@ export default function CollisionRepairPage() {
         description={{
           heading: 'Complete Collision Damage Repair You Can Count On',
           paragraphs: [
-            'At Texas Five Star Paint & Body, our collision repair services in Garland, TX are built on decades of hands-on experience restoring vehicles to pre-accident condition. Whether you\'ve been involved in a minor fender bender on I-635 or a major multi-vehicle collision on the George Bush Turnpike, our certified expert technicians use advanced measuring systems and computerized frame analysis to identify every point of structural damage. We work with all insurance providers to streamline your claims process, handling the paperwork so you can focus on getting back on the road safely.',
+            'At Texas Five Star Paint & Body, our collision repair services in Garland, TX are built on decades of hands-on experience restoring vehicles to pre-accident condition. Whether you\'ve been involved in a minor fender bender on I-635 or a major multi-vehicle collision on the George Bush Turnpike, our technicians, backed by 500+ 5-star reviews, use advanced measuring systems and computerized frame analysis to identify every point of structural damage. We work with all insurance providers to streamline your claims process, handling the paperwork so you can focus on getting back on the road safely.',
             'Structural integrity is the foundation of safe driving, and our shop is fully equipped with state-of-the-art frame straightening machines and unibody repair systems used by leading OEM manufacturers. Every collision repair begins with a thorough damage assessment, including a detailed inspection of crumple zones, suspension mounting points, and structural rails that may not be visible to the naked eye. We use only OEM and OEM-equivalent parts to maintain your vehicle\'s factory crash protection ratings and preserve its resale value throughout the DFW area.',
             'From Garland and Richardson to Rowlett, Sachse, and the broader Dallas–Fort Worth metroplex, drivers trust Texas Five Star for honest estimates and meticulous collision work. Our 214 Range Dr facility features dedicated paint booths, precision welding stations, and climate-controlled curing areas that allow us to deliver seamless, factory-quality finishes on every repair - guaranteed.',
           ],
@@ -117,11 +117,11 @@ export default function CollisionRepairPage() {
               'Remove minor dents and dings without repainting - fast, affordable, and eco-friendly.',
           },
           {
-            title: 'Lease Return Reconditioning',
-            slug: 'lease-return-reconditioning',
-            iconName: 'refresh',
+            title: 'ADAS Calibration',
+            slug: 'adas-calibration',
+            iconName: 'target',
             shortDesc:
-              'Avoid costly dealer penalties with professional reconditioning before your lease turn-in.',
+              'Precise recalibration of safety sensors following collision repair.',
           },
         ]}
       />

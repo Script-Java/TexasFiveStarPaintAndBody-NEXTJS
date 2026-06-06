@@ -12,8 +12,12 @@ import {
   FiDroplet,
   FiStar,
   FiShield,
-  FiSun,
-  FiRefreshCw,
+  FiEdit2,
+  FiMaximize,
+  FiTarget,
+  FiAlertTriangle,
+  FiFileText,
+  FiCloudRain,
 } from "react-icons/fi";
 import { locations, getLocationBySlug } from "@/data/locations";
 import Navbar from "../../components/navbar";
@@ -49,18 +53,46 @@ const serviceCards = [
       "Hail damage specialists. Minor dent & ding removal that preserves your factory finish - often completed same-day.",
   },
   {
-    slug: "headlight-restoration",
-    name: "Headlight Restoration",
-    icon: FiSun,
+    slug: "scratch-paint-chip-repair",
+    name: "Scratch & Paint Chip Repair",
+    icon: FiEdit2,
     description:
-      "Multi-stage wet sanding removes oxidation and yellowing. Sealed with UV protection for crystal-clear headlights.",
+      "Professional touch-ups and spot blending to eliminate unsightly scratches and rock chips before they lead to rust.",
   },
   {
-    slug: "lease-return-reconditioning",
-    name: "Lease Return Reconditioning",
-    icon: FiRefreshCw,
+    slug: "bumper-repair",
+    name: "Bumper Repair",
+    icon: FiMaximize,
     description:
-      "Pre-inspection assessment, scratch & scuff repair, and bumper reconditioning. Avoid costly dealership charges.",
+      "Expert bumper reshaping, crack welding, and refinishing. We restore structural integrity and factory appearance.",
+  },
+  {
+    slug: "adas-calibration",
+    name: "ADAS Calibration",
+    icon: FiTarget,
+    description:
+      "Precise recalibration of your vehicle's Advanced Driver Assistance Systems following collision repair or windshield replacement.",
+  },
+  {
+    slug: "rust-repair",
+    name: "Rust Repair",
+    icon: FiAlertTriangle,
+    description:
+      "Thorough removal of oxidation, metal patching, and preventative sealing to stop rust from spreading and restore integrity.",
+  },
+  {
+    slug: "auto-insurance-claim-repair",
+    name: "Auto Insurance Claim Repair",
+    icon: FiFileText,
+    description:
+      "We handle the entire claims process directly with your provider, ensuring complete repairs using OEM-approved procedures.",
+  },
+  {
+    slug: "hail-repair",
+    name: "Hail Repair",
+    icon: FiCloudRain,
+    description:
+      "Comprehensive hail damage restoration utilizing PDR and traditional bodywork for severe impacts. Fast turnaround.",
   },
 ];
 

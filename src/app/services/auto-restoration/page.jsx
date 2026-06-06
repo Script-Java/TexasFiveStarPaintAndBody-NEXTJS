@@ -117,11 +117,11 @@ export default function AutoRestorationPage() {
               'Structural repair expertise that applies directly to restoration-grade metalwork and alignment.',
           },
           {
-            title: 'Headlight Restoration',
-            slug: 'headlight-restoration',
-            iconName: 'sun',
+            title: 'Rust Repair',
+            slug: 'rust-repair',
+            iconName: 'alertTriangle',
             shortDesc:
-              'Restore or upgrade headlight lenses and housings to match your vehicle\'s refreshed appearance.',
+              'Complete removal of rust and oxidation, a critical step in any restoration project.',
           },
         ]}
       />

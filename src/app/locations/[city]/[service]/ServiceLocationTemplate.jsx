@@ -16,8 +16,12 @@ import {
   FiDroplet,
   FiStar,
   FiShield,
-  FiSun,
-  FiRefreshCw,
+  FiEdit2,
+  FiMaximize,
+  FiTarget,
+  FiAlertTriangle,
+  FiFileText,
+  FiCloudRain,
 } from "react-icons/fi";
 import Navbar from "../../../components/navbar";
 import Footer from "../../../components/footer";
@@ -45,8 +49,12 @@ const iconMap = {
   droplet: FiDroplet,
   star: FiStar,
   shield: FiShield,
-  sun: FiSun,
-  refresh: FiRefreshCw,
+  edit2: FiEdit2,
+  maximize: FiMaximize,
+  target: FiTarget,
+  alertTriangle: FiAlertTriangle,
+  fileText: FiFileText,
+  cloudRain: FiCloudRain,
 };
 
 const allServiceSlugs = [
@@ -54,8 +62,12 @@ const allServiceSlugs = [
   { slug: "custom-paint-refinishing", name: "Custom Paint & Refinishing", iconName: "droplet" },
   { slug: "auto-restoration", name: "Auto Restoration", iconName: "star" },
   { slug: "paintless-dent-repair", name: "Paintless Dent Repair", iconName: "shield" },
-  { slug: "headlight-restoration", name: "Headlight Restoration", iconName: "sun" },
-  { slug: "lease-return-reconditioning", name: "Lease Return Reconditioning", iconName: "refresh" },
+  { slug: "scratch-paint-chip-repair", name: "Scratch & Paint Chip Repair", iconName: "edit2" },
+  { slug: "bumper-repair", name: "Bumper Repair", iconName: "maximize" },
+  { slug: "adas-calibration", name: "ADAS Calibration", iconName: "target" },
+  { slug: "rust-repair", name: "Rust Repair", iconName: "alertTriangle" },
+  { slug: "auto-insurance-claim-repair", name: "Auto Insurance Claim Repair", iconName: "fileText" },
+  { slug: "hail-repair", name: "Hail Repair", iconName: "cloudRain" },
 ];
 
 function FAQAccordion({ faq }) {

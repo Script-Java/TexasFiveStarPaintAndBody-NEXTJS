@@ -4,7 +4,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FiAward, FiUsers, FiShield, FiArrowUpRight } from "react-icons/fi";
+import { FiAward, FiUsers, FiStar, FiArrowUpRight } from "react-icons/fi";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import { motion } from "framer-motion";
@@ -17,7 +17,7 @@ import teamImg from "../assets/img/gallery/3.jpg";
 const stats = [
   { icon: FiAward, value: "15+", label: "Years of Experience" },
   { icon: FiUsers, value: "1000+", label: "Satisfied Customers" },
-  { icon: FiShield, value: "Certified", label: "Expert Technicians" },
+  { icon: FiStar, value: "500+", label: "5-Star Reviews" },
 ];
 
 const values = [
@@ -113,7 +113,7 @@ export default function AboutContent() {
                 everyday drivers and luxury car owners across the DFW metroplex.
               </p>
               <p className="text-gray-400 leading-relaxed">
-                Owner Mary and our team of certified technicians combine
+                Owner Mary and our team combine
                 computerized color matching, advanced frame straightening
                 equipment, and old-school artisan paintwork to deliver results
                 that consistently earn us perfect five-star reviews. Whether
@@ -181,7 +181,7 @@ export default function AboutContent() {
             </motion.div>
             <motion.div {...fadeUp(0.1)}>
               <h3 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">
-                Certified Technicians, Family-Owned Accountability
+                500+ 5-Star Reviews, Family-Owned Accountability
               </h3>
               <p className="text-gray-400 leading-relaxed">
                 Our crew includes certified specialists in aluminum and carbon

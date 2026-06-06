@@ -17,8 +17,12 @@ const serviceLinks = [
   { name: "Custom Paint & Refinishing", path: "/services/custom-paint-refinishing" },
   { name: "Paintless Dent Repair", path: "/services/paintless-dent-repair" },
   { name: "Auto Restoration", path: "/services/auto-restoration" },
-  { name: "Headlight Restoration", path: "/services/headlight-restoration" },
-  { name: "Lease Return Reconditioning", path: "/services/lease-return-reconditioning" },
+  { name: "Scratch & Paint Chip Repair", path: "/services/scratch-paint-chip-repair" },
+  { name: "Bumper Repair", path: "/services/bumper-repair" },
+  { name: "ADAS Calibration", path: "/services/adas-calibration" },
+  { name: "Rust Repair", path: "/services/rust-repair" },
+  { name: "Auto Insurance Claim Repair", path: "/services/auto-insurance-claim-repair" },
+  { name: "Hail Repair", path: "/services/hail-repair" },
 ];
 
 const areaLinks = [

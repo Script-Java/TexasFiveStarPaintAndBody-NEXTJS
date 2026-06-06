@@ -70,8 +70,22 @@ const nextConfig = {
       { source: '/services-near-you/custom-paint-refinishing-:city-tx', destination: '/locations/:city/custom-paint-refinishing', permanent: true },
       { source: '/services-near-you/auto-restoration-:city-tx', destination: '/locations/:city/auto-restoration', permanent: true },
       { source: '/services-near-you/paintless-dent-repair-:city-tx', destination: '/locations/:city/paintless-dent-repair', permanent: true },
-      { source: '/services-near-you/headlight-restoration-:city-tx', destination: '/locations/:city/headlight-restoration', permanent: true },
-      { source: '/services-near-you/lease-return-reconditioning-:city-tx', destination: '/locations/:city/lease-return-reconditioning', permanent: true },
+      
+      // Redirect deprecated services to /services
+      { source: '/services-near-you/headlight-restoration-:city-tx', destination: '/services', permanent: true },
+      { source: '/services-near-you/lease-return-reconditioning-:city-tx', destination: '/services', permanent: true },
+      { source: '/locations/:city/headlight-restoration', destination: '/services', permanent: true },
+      { source: '/locations/:city/lease-return-reconditioning', destination: '/services', permanent: true },
+      { source: '/services/headlight-restoration', destination: '/services', permanent: true },
+      { source: '/services/lease-return-reconditioning', destination: '/services', permanent: true },
+      
+      // New services redirects if old slugs exist
+      { source: '/services-near-you/scratch-paint-chip-repair-:city-tx', destination: '/locations/:city/scratch-paint-chip-repair', permanent: true },
+      { source: '/services-near-you/bumper-repair-:city-tx', destination: '/locations/:city/bumper-repair', permanent: true },
+      { source: '/services-near-you/adas-calibration-:city-tx', destination: '/locations/:city/adas-calibration', permanent: true },
+      { source: '/services-near-you/rust-repair-:city-tx', destination: '/locations/:city/rust-repair', permanent: true },
+      { source: '/services-near-you/auto-insurance-claim-repair-:city-tx', destination: '/locations/:city/auto-insurance-claim-repair', permanent: true },
+      { source: '/services-near-you/hail-repair-:city-tx', destination: '/locations/:city/hail-repair', permanent: true },
     ];
   },
 };

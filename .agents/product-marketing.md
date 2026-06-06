@@ -5,7 +5,7 @@
 ## Product Overview
 **One-liner:** Texas Five Star Paint & Body is a family-owned auto body shop in Garland, TX delivering dealership-quality collision repair, custom paint, and auto restoration with an artist's touch.
 
-**What it does:** Full-service auto body repair and refinishing for everyday drivers and luxury/exotic vehicle owners across the DFW metroplex. Services range from insurance-covered collision repair and paintless dent repair to bespoke custom paint jobs and frame-off classic car restorations. The shop also handles headlight restoration and lease return reconditioning.
+**What it does:** Full-service auto body repair and refinishing for everyday drivers and luxury/exotic vehicle owners across the DFW metroplex. Services range from insurance-covered collision repair and paintless dent repair to bespoke custom paint jobs and frame-off classic car restorations.
 
 **Product category:** Auto Body Shop / Collision Repair Center
 
@@ -37,10 +37,8 @@
 - Custom full-body color change with candy, pearl, metallic, or matte finishes
 - Frame-off / rotisserie classic car restoration with factory-spec paint
 - Hail damage and minor dent repair via PDR (same-day available)
-- Headlight oxidation removal and UV sealant protection
-- Lease return scratch, scuff, ding, and bumper reconditioning
 - Luxury/exotic vehicle bodywork (aluminum, carbon fiber, high-end finishes)
-- Paint correction and ceramic/graphene coating for paint protection
+- Paint correction for paint protection
 - Bumper repair, scratch & chip repair, frame straightening
 
 ## Core Services
@@ -51,10 +49,8 @@
 | 2 | **Custom Paint & Refinishing** | Factory color matching (computerized), candy/pearl/metallic finishes, airbrushing & graphics, paint correction & polishing |
 | 3 | **Auto Restoration** | Classic & muscle cars, frame-off/rotisserie restorations, period-correct finishing, original factory-spec painting |
 | 4 | **Paintless Dent Repair (PDR)** | Hail damage specialists, minor dent & ding removal, maintains factory finish, same-day service available |
-| 5 | **Headlight Restoration** | Oxidation & yellowing removal, multi-stage wet sanding, UV protection sealant |
-| 6 | **Lease Return Reconditioning** | Pre-inspection assessment, scuffs & scratch repair, dings & bumper reconditioning |
 
-**Additional capabilities:** Aluminum & carbon fiber repair, ceramic & graphene pro coatings, concourse-level detailing, interior & exterior protection, scratch & dent removal.
+**Additional capabilities:** Aluminum & carbon fiber repair, concourse-level detailing, interior & exterior protection, scratch & dent removal.
 
 ## Personas
 
@@ -64,7 +60,6 @@
 | **Car Enthusiast / Custom Build** | Unique, head-turning finish; paint quality that lasts | Hard to find shops that do true custom work at a high level | "From candy finishes to airbrushed graphics, your vision is our command." |
 | **Classic Car Owner** | Authenticity, period-correctness, preserving value | Very few shops have the expertise for proper restorations | "Award-winning craftsmanship bringing classic cars back to life with factory-spec detail." |
 | **Luxury / Exotic Owner** | Meticulous care, specialist materials (aluminum, carbon fiber), discretion | Most body shops lack training or equipment for high-end vehicles | "Certified high-end vehicle technicians in a discreet, secure facility." |
-| **Lease Holder at Turn-In** | Avoiding surprise fees, quick turnaround | Unsure what damage will be flagged, limited time before return | "We inspect, repair, and save you money before your lease turn-in." |
 
 ## Problems & Pain Points
 
@@ -94,8 +89,8 @@
 ## Differentiation
 
 **Key differentiators:**
-- **Full spectrum under one roof** — collision repair, custom paint, classic restoration, PDR, headlight restoration, and lease reconditioning all at one shop
-- **Luxury & exotic vehicle specialists** — certified technicians for aluminum, carbon fiber, and high-end finishes
+- **Full spectrum under one roof** — collision repair, custom paint, classic restoration, and PDR all at one shop
+- **Luxury & exotic vehicle specialists** — our team with 500+ 5-star reviews is equipped for aluminum, carbon fiber, and high-end finishes
 - **Artisan-level craftsmanship** — treats every vehicle as a work of art (not an assembly line)
 - **15+ years of experience** with 1,000+ satisfied customers and a perfect 5-star Google rating (500+ reviews)
 - **Complete insurance assistance** — handles all claims paperwork so the customer doesn't have to
@@ -114,7 +109,7 @@
 |-----------|----------|
 | "How do I know the quality will be good?" | 500+ five-star Google reviews, before/after gallery on site, and every job is inspected to our five-star standard before handoff. |
 | "Will you work with my insurance?" | Absolutely — we handle all insurance claims and paperwork. We also offer up to $500 deductible forgiveness. |
-| "I have a luxury/exotic car — can you handle it?" | Yes — we have certified technicians trained in aluminum, carbon fiber, and high-end vehicle repair with a discreet, secure facility. |
+| "I have a luxury/exotic car — can you handle it?" | Yes — our team with 500+ 5-star reviews is trained in aluminum, carbon fiber, and high-end vehicle repair with a discreet, secure facility. |
 | "How long will it take?" | Depends on the scope, but we're known for fast turnaround. PDR can be same-day. We keep you informed on timeline throughout. |
 
 **Anti-persona:** Someone looking for the absolute cheapest option who doesn't care about quality or finish. Vehicles with only mechanical (non-body) issues.
@@ -135,8 +130,6 @@
 - "My car got hit and I need it fixed"
 - "I need a paint job" / "I want a custom color"
 - "Hail tore my car up"
-- "My lease is up and I have some dings"
-- "My headlights are foggy / yellow"
 - "I need my classic car restored"
 
 **How they describe us:**

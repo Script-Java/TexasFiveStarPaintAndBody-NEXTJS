@@ -114,18 +114,18 @@ export default function PaintlessDentRepairPage() {
               "Full-service collision repair for damage beyond PDR, including structural and panel replacement.",
           },
           {
-            title: "Lease Return Reconditioning",
-            slug: "lease-return-reconditioning",
-            iconName: "refresh",
+            title: "Hail Repair",
+            slug: "hail-repair",
+            iconName: "cloudRain",
             shortDesc:
-              "Prepare your leased vehicle for turn-in and avoid costly excess wear and tear charges.",
+              "Comprehensive hail damage restoration utilizing a mix of PDR and traditional bodywork.",
           },
           {
-            title: "Headlight Restoration",
-            slug: "headlight-restoration",
-            iconName: "sun",
+            title: "Auto Insurance Claim Repair",
+            slug: "auto-insurance-claim-repair",
+            iconName: "fileText",
             shortDesc:
-              "Restore cloudy, yellowed headlights to crystal-clear condition for better visibility and appearance.",
+              "We handle the claims process directly with your provider for seamless repairs.",
           },
         ]}
       />

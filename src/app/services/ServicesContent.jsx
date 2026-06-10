@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FiArrowUpRight, FiTool, FiDroplet, FiStar, FiShield, FiCheck, FiEdit2, FiMaximize, FiTarget, FiAlertTriangle, FiFileText, FiCloudRain } from "react-icons/fi";
+import { FiArrowUpRight, FiTool, FiDroplet, FiStar, FiShield, FiCheck, FiEdit2, FiMaximize, FiTarget, FiAlertTriangle, FiFileText, FiCloudRain, FiRefreshCw } from "react-icons/fi";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";  // update path if yours differs
 
@@ -111,6 +111,24 @@ const servicesData = [
     image: hailImg,
     details: ["Paintless Dent Repair (PDR)", "Panel Replacement if Needed", "Storm Damage Specialists"],
   },
+  {
+    icon: FiTool,
+    title: "Auto Body Shop",
+    slug: "auto-body-shop",
+    description:
+      "Our full-service auto body shop handles everything from minor dents and scratches to major collision damage. Expert bodywork, factory-match paint, and insurance claim management — all under one roof in Garland, TX.",
+    image: collisionImg,
+    details: ["Complete Collision Repair", "Expert Paint & Refinishing", "Insurance Claims Made Easy"],
+  },
+  {
+    icon: FiRefreshCw,
+    title: "Auto Repair Shop",
+    slug: "auto-repair-shop",
+    description:
+      "Beyond bodywork, our auto repair shop provides collision-related mechanical repair including suspension alignment, brake inspection, diagnostic scanning, and ADAS safety system calibration.",
+    image: adasImg,
+    details: ["Post-Collision Mechanical Repair", "Suspension & Alignment", "ADAS Calibration"],
+  },
 ];
 
 function ServiceCard({ icon: Icon, title, slug, description, image, details }) {
@@ -214,7 +232,7 @@ export default function ServicesContent() {
             </h2>
             <p className="mt-4 text-lg text-gray-400 max-w-2xl mx-auto">
               Visit us at 214 Range Dr in Garland for a free estimate, or call for same-day
-              consultations. We handle all insurance claims and offer up to $500 deductible forgiveness.
+              consultations. Proudly serving the Firewheel area, Duck Creek, Rowlett, Sachse, and all neighborhoods across the DFW metroplex. We handle all insurance claims and offer up to $500 deductible forgiveness.
             </p>
             <a
               href="https://maps.app.goo.gl/P4kbxw5D3ktNxKi59"

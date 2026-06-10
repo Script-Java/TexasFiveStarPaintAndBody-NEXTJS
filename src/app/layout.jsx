@@ -101,6 +101,8 @@ const jsonLd = {
     { '@type': 'City', name: 'Sunnyvale' },
     { '@type': 'City', name: 'Rockwall' },
     { '@type': 'City', name: 'Balch Springs' },
+    { '@type': 'Neighborhood', name: 'Firewheel' },
+    { '@type': 'Neighborhood', name: 'Duck Creek' },
     { '@type': 'State', name: 'Texas' },
   ],
   sameAs: [
@@ -142,6 +144,8 @@ const jsonLd = {
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Rust Repair' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Auto Insurance Claim Repair' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Hail Repair' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Auto Body Shop' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Auto Repair Shop' } },
     ],
   },
 };

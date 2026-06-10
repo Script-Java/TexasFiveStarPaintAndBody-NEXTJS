@@ -9,7 +9,7 @@ const BeforeAfter = dynamic(() => import("./components/beforeAfter"), { ssr: tru
 
 export const metadata = {
   title: 'Auto Body Shop in Garland, TX | Texas Five Star Paint & Body',
-  description: 'Texas Five Star Paint & Body offers professional collision repair, custom paint jobs, paintless dent repair, and auto restoration in Garland, TX. Call (469) 583-7377.',
+  description: 'Texas Five Star Paint & Body in Garland, TX offers expert auto body shop services, collision repair, custom paint, and restoration. Call (469) 583-7377 today.',
   alternates: { canonical: '/' },
   openGraph: {
     title: 'Auto Body Shop in Garland, TX | Texas Five Star Paint & Body',

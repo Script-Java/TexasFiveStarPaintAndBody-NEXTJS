@@ -16,6 +16,8 @@ export default function sitemap() {
     { url: `${baseUrl}/services/rust-repair`, lastModified: new Date() },
     { url: `${baseUrl}/services/auto-insurance-claim-repair`, lastModified: new Date() },
     { url: `${baseUrl}/services/hail-repair`, lastModified: new Date() },
+    { url: `${baseUrl}/services/auto-body-shop`, lastModified: new Date() },
+    { url: `${baseUrl}/services/auto-repair-shop`, lastModified: new Date() },
     { url: `${baseUrl}/gallery`, lastModified: new Date() },
     { url: `${baseUrl}/about`, lastModified: new Date() },
     { url: `${baseUrl}/before-and-after`, lastModified: new Date() },
@@ -34,6 +36,8 @@ export default function sitemap() {
     'rust-repair',
     'auto-insurance-claim-repair',
     'hail-repair',
+    'auto-body-shop',
+    'auto-repair-shop',
   ]
 
   // Global locations hub

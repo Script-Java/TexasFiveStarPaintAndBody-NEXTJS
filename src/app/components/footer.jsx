@@ -23,6 +23,8 @@ const Footer = () => {
     { name: "Rust Repair", path: "/services/rust-repair" },
     { name: "Auto Insurance Claim Repair", path: "/services/auto-insurance-claim-repair" },
     { name: "Hail Repair", path: "/services/hail-repair" },
+    { name: "Auto Body Shop", path: "/services/auto-body-shop" },
+    { name: "Auto Repair Shop", path: "/services/auto-repair-shop" },
   ];
 
   const quickLinks = [

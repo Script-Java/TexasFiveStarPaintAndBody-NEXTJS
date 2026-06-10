@@ -17,13 +17,13 @@ import img7 from "../assets/img/7.jpg";
 const slides = [
   {
     src: img1,
-    alt: "Flawless blue paint restoration on a classic Shelby Cobra at our Garland body shop.",
+    alt: "Flawless blue paint restoration on a classic Shelby Cobra at our Garland auto body shop near Firewheel.",
     headline: "Auto Body Shop in Garland, TX | Texas Five Star Paint & Body",
-    subheadline: "Dealership-quality collision repair, custom paint, and classic car restoration backed by 500+ 5-star reviews.",
+    subheadline: "Proudly serving the Firewheel area, Rowlett, Sachse & all neighborhoods across Garland with dealership-quality collision repair, custom paint, and classic car restoration.",
     details: [
       "Precision Collision Repair",
       "Factory-Match Paint & Refinishing",
-      "All Insurance Claims Handled",
+      "Serving Firewheel, Duck Creek & All of Garland",
     ],
   },
   {

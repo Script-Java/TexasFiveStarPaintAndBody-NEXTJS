@@ -171,7 +171,7 @@ export default function Testimonials() {
               viewport={{ once: true }}
               transition={{ duration: 0.45, ease: "easeOut" }}
             >
-              Trusted by Drivers Across Garland
+              Trusted by Drivers Across Garland, Firewheel & Beyond
             </motion.h2>
 
             <motion.p
@@ -181,7 +181,7 @@ export default function Testimonials() {
               viewport={{ once: true }}
               transition={{ duration: 0.45, ease: "easeOut", delay: 0.05 }}
             >
-              We&apos;re proud of our 5-star rating. But don&apos;t just take our word for it - see what our
+              We&apos;re proud of our 5-star rating from drivers in Firewheel, Rowlett, Sachse, and neighborhoods across Garland. But don&apos;t just take our word for it - see what our
               satisfied customers have to say about their experience.
             </motion.p>
 
